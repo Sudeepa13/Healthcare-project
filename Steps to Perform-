@@ -17,9 +17,8 @@ d. /deletePolicy/{doctorRegNo} (HTTP Method : DELETE) ( No Request Body)
 2. Writeen necessary Junit testcases.
 3. Generated a HTML report using TestNG.
 4. Push the code into your GitHub Repository.
-Note : Preload some data into the database.
-www.staragile.com
-Later, Later implementd Continuous Integration & Continuous Deployment using
+
+Later, we are needed to implementd Continuous Integration & Continuous Deployment using
 following tools:
 ✓ Git - For version control for tracking changes in the code files
 ✓ Jenkins - For continuous integration and continuous deployment
@@ -28,7 +27,7 @@ following tools:
 ✓ Selenium - For automating tests on the deployed web application
 ✓ Terraform - For creation of infrastructure.
 ✓ Kubernetes – for running containerized application in managed cluster.
-This project was about how to test the services and deploy code to dev/stage/prod etc, just
+Ask was about how to test the services and deploy code to dev/stage/prod etc, just
 on a click of button.
 Business challenge/requirement
 As soon as the developer pushes the updated code on the GIT master branch, the Jenkins
