@@ -1,4 +1,4 @@
-Initially, Medicure is facing multiple problems, because of involved complexity in application as
+Initially, Medical facility is facing multiple problems, because of involved complexity in application as
 well as Infrastructure.
 Following are the problems:
 ✓ Building Complex builds is difficult
@@ -6,7 +6,7 @@ Following are the problems:
 ✓ Incremental builds are difficult to manage, test and deploy
 ✓ Creation of infrastructure and configure it manually is very time consuming
 ✓ Continuous manual monitoring the application is quite challenging.
-In order to implement a POC, you are requested to develop a mavenized microservice using
+In order to implement a POC, I have to develop a mavenized microservice using
 spring boot and in memory h2 database.
 1. a microservice which exposes below mentioned endpoints as APIs and uses in memory
 h2 database to store the data.
@@ -14,12 +14,12 @@ a. /registerDoctor (HTTP Method : POST) (Request Body : JSON)
 b. /updateDoctor/{doctorRegNo} (HTTP Method : PUT ) (Request Body : JSON)
 c. /searchDoctor/{doctorName} (HTTP Method : GET ) ( No Request Body )
 d. /deletePolicy/{doctorRegNo} (HTTP Method : DELETE) ( No Request Body)
-2. Write necessary Junit testcase.
-3. Generate HTML report using TestNG.
-4. Push your code into your GitHub Repository.
+2. Writeen necessary Junit testcases.
+3. Generated a HTML report using TestNG.
+4. Push the code into your GitHub Repository.
 Note : Preload some data into the database.
 www.staragile.com
-Later, you need to implement Continuous Integration & Continuous Deployment using
+Later, Later implementd Continuous Integration & Continuous Deployment using
 following tools:
 ✓ Git - For version control for tracking changes in the code files
 ✓ Jenkins - For continuous integration and continuous deployment
@@ -28,7 +28,7 @@ following tools:
 ✓ Selenium - For automating tests on the deployed web application
 ✓ Terraform - For creation of infrastructure.
 ✓ Kubernetes – for running containerized application in managed cluster.
-This project will be about how to test the services and deploy code to dev/stage/prod etc, just
+This project was about how to test the services and deploy code to dev/stage/prod etc, just
 on a click of button.
 Business challenge/requirement
 As soon as the developer pushes the updated code on the GIT master branch, the Jenkins
@@ -37,7 +37,7 @@ containerized. A new test-cluster should be provisioned and configured automatic
 the required software’s and as soon as the cluster is healthy and available, the application must
 be deployed to the test-server automatically using Kubernetes.
 The deployment should then be tested using a test automation tool, and if the build is
-successful, it should be deployed to the prod server/cluster using Kubernetes. All this should
-happen automatically and should be triggered from a push to the GitHub master branch.
+successful, it would be deployed to the prod server/cluster using Kubernetes. All this would
+happen automatically and would be triggered from a push to the GitHub master branch.
 Kubernetes cluster must contain at least 2 servers and must be monitored continuously using
 Prometheus and dashboard must be visualized using Grafana
