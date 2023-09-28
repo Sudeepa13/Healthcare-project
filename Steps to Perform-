@@ -30,7 +30,7 @@ following tools:
 Ask was about how to test the services and deploy code to dev/stage/prod etc, just
 on a click of button.
 Business challenge/requirement
-As soon as the developer pushes the updated code on the GIT master branch, the Jenkins
+As soon as the developer pushes the updated code on the GIT feature branch, the Jenkins
 pipeline should be triggered and code should be checkout, compiled, tested, packaged and
 containerized. A new test-cluster should be provisioned and configured automatically with all
 the required software’s and as soon as the cluster is healthy and available, the application must
